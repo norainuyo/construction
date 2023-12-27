@@ -193,14 +193,15 @@ body{
 
 .carousel-cell {
   width: 66%;
-  height: 40rem;
   margin-right: 10px;
   border-radius: 5px;
   background-image: url(./1.jpg);  
 }
 
 .cell-img{
-    width: 61rem;
+
+    width: 100%;
+    object-fit: fill;
     filter: brightness(50%);
 }
 
@@ -235,13 +236,7 @@ body{
 .cell-text-small{
     text-align: center;
     line-height: 1.7;
-    font-size: 20px;
-}
-
-.slider-button{
-    display: flex;
-    /* justify-content: center; */
-    padding-left: 70.9%;
+    font-size: 17px;
 }
 
 .slider-button a{
@@ -358,3 +353,4 @@ body{
     position: fixed;//useless
     postion:relative;
     } */
+    
